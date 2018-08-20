@@ -1,4 +1,6 @@
+
 import java.util.*; // package to use Scanner class
+import abc.File2;
 class pattern {
     public static void main(String[] args)
     {
@@ -21,6 +23,9 @@ class pattern {
  
             // for new line after printing each row
             System.out.println();
+            File2 obj = new File2();
+        	obj.method1();
+            
         }
     }
 }
